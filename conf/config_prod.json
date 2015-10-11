@@ -1,0 +1,13 @@
+{
+	"VERSION": "1.0.0",
+	"DB": {
+		"mysql": {
+			"host": "127.0.0.1",
+			"user": "root",
+			"pass": "",
+			"name": "gos"
+		}
+	},
+	"static_path": "gos.am",
+	"contact_email": "info@imusic.am"
+}

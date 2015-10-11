@@ -1,0 +1,14 @@
+[
+	{
+		"output_file": "styles.css",
+		"compress": true,
+		"builders": [
+			{
+				"output_file": "main.css",
+				"compress": false,
+				"files": ["demo.css",
+									"demo.less"]
+			}
+		]
+	}
+]

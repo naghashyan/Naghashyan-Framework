@@ -1,0 +1,25 @@
+[
+	{
+		"output_file": "styles.css",
+		"compress": true,
+		"builders": [
+			{
+				"output_file": "global_variables.css",
+				"type": "variables",
+				"files": []
+			}, {
+				"output_file": "global_mixins.css",
+				"type": "mixins",
+				"files": []
+			}, {
+				"output_file": "global_components.css",
+				"type": "components",
+				"files": []
+			}, {
+				"output_file": "modules.css",
+				"type": "modules",
+				"files": []
+			}
+		]
+	}
+]

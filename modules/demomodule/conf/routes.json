@@ -1,0 +1,15 @@
+{
+	"home": [
+		{
+			"action": "loads.main.get_exchange",
+			"route": "[:name][/:quantity]",
+			"constraints": {
+				"name": "[a-zA-Z]+",
+				"quantity": "[0-9]+"
+			}
+		}
+	],
+	"default": {
+		"action": "loads.main.main"
+	}
+}

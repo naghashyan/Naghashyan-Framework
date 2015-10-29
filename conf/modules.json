@@ -1,10 +1,9 @@
 {
-	"path": {},
-	"domain": {},
-	"subdomain": {
-		"demomodule": {
-			"dir": "demosubdomain"
-		}
-	},
-	"default": "demo"
+  "default": {
+    "subdomain": {},
+    "path": {},
+    "default": {
+      "dir": "demo"
+    }
+  }
 }

@@ -1,21 +1,20 @@
 {
-	"demo": [
-		{
-			"action": "loads.easypost.main",
-			"route": "easypost"
-		}
-	],
-	"get_exchange": [
-		{
-			"action": "loads.main.get_exchange",
-			"route": "[:name][/:quantity]",
-			"constraints": {
-				"name": "[a-zA-Z]+",
-				"quantity": "[0-9]+"
-			}
-		}
-	],
-	"default": {
-		"action": "loads.demo.main"
-	}
+  "demo": [
+    {
+      "action": "loads.demo.main",
+      "nestedLoad": {
+        "content": {
+          "action": "loads.demo.home"
+        }
+      }
+    }
+  ],
+  "default": {
+    "action": "loads.demo.main",
+    "nestedLoad": {
+      "content": {
+        "action": "loads.demo.home"
+      }
+    }
+  }
 }

@@ -90,6 +90,7 @@ NGS = {
    *
    */
   nestLoad : function(loadName, params, parent) {
+    
     try {
       var laodObj = this.getNGSItemObjectByNameAndType("load", loadName);
       laodObj.nestLoad(parent, params);
@@ -265,6 +266,7 @@ NGS = {
    * return Object loadObject
    */
   getNGSItemObjectByNameAndType : function(type, itemName) {
+
     if ( typeof (itemName) != "string") {
       throw new Error(itemName + " " + type + " not found");
     }
@@ -308,7 +310,7 @@ NGS = {
    * return Object loadObject
    */
   getNGSItemPackageAndName : function(actionName) {
-    var matches = actionName.match(/[a-zA-Z\_\-]+/g);
+    var matches = actionName.match(/[a-zA-Z0-9\_\-]+/g);
     var action = matches[matches.length - 1];
     var myRegExp = new RegExp('([A-Z])', 'g');
     action = action.replace(myRegExp, "_$1").toLowerCase().replace(new RegExp('^_'), "");

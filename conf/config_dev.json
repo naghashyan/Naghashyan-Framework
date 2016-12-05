@@ -11,9 +11,9 @@
 			"host": "127.0.0.1",
 			"user": "",
 			"pass": "",
-			"name": "gos"
+			"name": "demo"
 		}
 	},
-	"static_path": "ngs.am",
-	"contact_email": "info@naghashyan.com"
+	"static_path": "demo.am",
+	"contact_email": "info@demo.com"
 }

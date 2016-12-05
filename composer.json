@@ -1,0 +1,17 @@
+{
+  "name": "ngs-framework",
+  "description": "ngs-framework",
+  "type": "project",
+  "require": {
+    "php": ">=5.6.0",
+    "naghashyan/ngs-php-framework": "dev-master",
+    "ext-curl": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "demo\\": "classes/"
+//      "jobshape\\": "modules/jobshape/classes/"
+    }
+  }
+}

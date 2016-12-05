@@ -1,2 +1,0 @@
-# Naghashyan-Framework
-Naghashyan Framework

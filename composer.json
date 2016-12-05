@@ -11,7 +11,7 @@
   "autoload": {
     "psr-4": {
       "demo\\": "classes/"
-//      "jobshape\\": "modules/jobshape/classes/"
+//      "yourModuleNamespace\\": "modules/yourModuleName/classes/"
     }
   }
 }

@@ -1,0 +1,22 @@
+[
+  {
+    "output_file": "im-styles.css",
+    "compress": true,
+    "builders": [
+      {
+        "output_file": "cms-colors.css",
+        "type": "variables",
+        "files": [
+          "variables/color.scss"
+        ]
+      },
+      {
+        "output_file": "cms-colors.css",
+        "type": "modules",
+        "files": [
+          "modules/main.scss"
+        ]
+      }
+    ]
+  }
+]

@@ -11,12 +11,12 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
-    "naghashyan/ngs-php-framework": "*"
+    "php": ">=7.3.0",
+    "naghashyan/ngs-php-framework": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "demo\\": "classes/"
+      "ngs_demo\\": "classes/"
     }
   }
 }

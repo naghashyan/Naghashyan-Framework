@@ -1,0 +1,1 @@
+D:/www/Naghashyan-Framework/vendor/naghashyan/ngs-php-framework/src/web/js/src/util/NgsFormValidator.js

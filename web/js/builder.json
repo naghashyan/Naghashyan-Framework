@@ -1,0 +1,11 @@
+{
+  "es5": false,
+  "out_dir": "htdocs/out/js",
+  "es5_out_dir": "htdocs/out/js/es5",
+  "compress": true,
+  "builders": [
+    {
+      "include": "ngs"
+    }
+  ]
+}

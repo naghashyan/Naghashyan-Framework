@@ -10,12 +10,12 @@
  * @version 6.0
  *
  */
-namespace demo\security {
-	class RequestGroups {
 
-		public static $adminsRequest = 0;
-		public static $guestRequest = 11;
+namespace ngs_demo\security {
+  class RequestGroups {
 
-	}
+    public static $guestRequest = 11;
+
+  }
 
 }

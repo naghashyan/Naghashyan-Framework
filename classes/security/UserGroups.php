@@ -10,18 +10,14 @@
  * @version 6.0
  *
  */
-namespace demo\security {
-	class UserGroups {
-		
-		/**
-		 * @var System administrator
-		 */
-		public static $ADMIN = 0;
 
-		/**
-		 * @var Non authorized user with minimum privileges
-		 */
-		public static $GUEST = 11;
-	}
+namespace ngs_demo\security {
+  class UserGroups {
+
+    /**
+     * @var Non authorized user with minimum privileges
+     */
+    public static $GUEST = 11;
+  }
 
 }

@@ -1,19 +1,19 @@
 {
-	"VERSION": "1.0.0",
-	"DB": {
-		"mysql": {
-			"host": "127.0.0.1",
-			"user": "root",
-			"pass": "",
-			"name": "demo"
-		},
-		"mongo": {
-			"host": "127.0.0.1",
-			"user": "",
-			"pass": "",
-			"name": "demo"
-		}
-	},
-	"static_path": "demo.am",
-	"contact_email": "info@demo.com"
+  "VERSION": "1.0.0",
+  "DB": {
+    "mysql": {
+      "host": "127.0.0.1",
+      "user": "root",
+      "pass": "",
+      "name": "demo"
+    },
+    "mongo": {
+      "host": "127.0.0.1",
+      "user": "",
+      "pass": "",
+      "name": "demo"
+    }
+  },
+  "static_path": "demo.am",
+  "contact_email": "info@demo.com"
 }

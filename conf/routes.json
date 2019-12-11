@@ -1,19 +1,19 @@
 {
-  "demo": [
+  "home": [
     {
-      "action": "loads.demo.main",
+      "action": "loads.main.main",
       "nestedLoad": {
         "content": {
-          "action": "loads.demo.home"
+          "action": "loads.main.home"
         }
       }
     }
   ],
   "default": {
-    "action": "loads.demo.main",
+    "action": "loads.main.main",
     "nestedLoad": {
       "content": {
-        "action": "loads.demo.home"
+        "action": "loads.main.home"
       }
     }
   }
